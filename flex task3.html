@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       .container {
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            background-color: black;
+            flex-wrap: wrap;
+        }
+        .left,
+        .right {
+            width: 50%;
+            padding: 20px 0px;
+            background-color:black;
+        }
+
+        .nj {
+            width: 100%;
+            padding: 20px 0px;
+            background-color: black;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            justify-content: space-evenly;
+        }
+
+        .nb1 {
+            width: 275px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            gap: 20px;
+        }
+
+        .nb2 {
+            width: 275px;
+            padding: 10px;
+            background-color: rgb(223, 17, 86);
+            border-radius: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            gap: 20px;
+        }
+
+        .nb3 {
+            width: 275px;
+            padding: 10px;
+            background-color: lightslategray;
+            border-radius: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            text-align: center;
+        }
+
+        .ntext {
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .ntext1 {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .jtext {
+            color: black;
+            font-size: 20px;
+        }
+
+        .jtext1 {
+            color: white;
+            font-size: 20px;
+        }
+
+        .img {
+            max-width: 100%;
+        }
+        @media screen and(max-width:768px) {
+            .container{
+                flex-direction: column;
+                
+            
+            }
+            .nj{
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<!-- <link rel="stylesheet" href -->
+
+<body>
+    <div class="container">
+        <div class="left">
+            <!-- <h1>left</h1> -->
+            <img class="img" src="https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.png" alt="">
+        </div>
+        <div class="right">
+            <div class="nj">
+                <div class="nb1">
+                    <div class="ntext">01</div>
+                    <div class="jtext">sed ut perspiciatis unde omnis iste natus error sit voluptatem accusatium
+                        doloremque
+                        laudantium</div>
+                </div>
+                <div class="nb2">
+                    <div class="ntext1">02</div>
+                    <div class="jtext1">sed ut perspiciatis unde omnis iste natus error sit voluptatem accusatium
+                        doloremque
+                        laudantium</div>
+                </div>
+                <div class="nb3">
+                    <div class="ntext1">03</div>
+                    <div class="jtext1">sed ut perspiciatis unde omnis iste natus error sit voluptatem accusatium
+                        doloremque
+                        laudantium</div>
+                </div>
+                <div class="nb1">
+                    <div class="ntext">04</div>
+                    <div class="jtext">sed ut perspiciatis unde omnis iste natus error sit voluptatem accusatium
+                        doloremque
+                        laudantium</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
