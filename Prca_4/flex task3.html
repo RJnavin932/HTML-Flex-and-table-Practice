@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       .container {
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            background-color: black;
+            flex-wrap: wrap;
+        }
+        .left,.right{
+            width: 500px;
+            padding: 10px 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+          
+        }
+        .right{
+            gap: 10px;
+        }
+       
+        .nb1,.nb2,.nb3{
+            width: 250px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            gap: 10px;
+        }
+
+        .nb2 {
+            background-color: rgb(223, 17, 86);
+            color: white;
+        }
+
+        .nb3 {
+            background-color: lightslategray;
+            color: white;
+        }
+        .img {
+            max-width:100%;
+        }
+        @media screen and(max-width:768px) {
+            .container{
+                flex-direction: column;
+            }
+            .nj{
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img class="img" src="https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.png" alt="">
+        </div>
+        <div class="right">
+           
+                <div class="nb1">
+                    <div>01</div>
+                    <div>sed ut perspiciatis unde omnis iste natus error sit voluptatem accusatium
+                        doloremque
+                        laudantium</div>
+                </div>
+                <div class="nb2">
+                    <div>02</div>
+                    <div>sed ut perspiciatis unde omnis iste natus error sit voluptatem accusatium
+                        doloremque
+                        laudantium</div>
+                </div>
+                <div class="nb3">
+                    <div>03</div>
+                    <div>sed ut perspiciatis unde omnis iste natus error sit voluptatem accusatium
+                        doloremque
+                        laudantium</div>
+                </div>
+                <div class="nb1">
+                    <div>04</div>
+                    <div>sed ut perspiciatis unde omnis iste natus error sit voluptatem accusatium
+                        doloremque
+                        laudantium</div>
+                </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
