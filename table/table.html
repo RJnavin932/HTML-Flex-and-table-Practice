@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+
+    <style>
+        body{
+            background-color: lightgreen;
+        }
+        .d{
+            width: 100%;
+            overflow-y: hidden;
+            overflow-x: auto;
+        }
+        .table{
+               width: 100%;
+               padding: 20px 0px;
+               background: white;
+               border-collapse:collapse;
+               overflow: hidden;
+               border-spacing: 0; 
+               border-radius: 6px;
+               text-align: center;
+        }
+        
+        .thead{
+            height:60px;
+            background: #FFED86;
+            font-size: 16px;
+        }
+        .tbody{
+            height: 48px;
+            border-bottom:1px solid #e3f1d5;
+           
+        
+        }
+        .tbody> td{
+            padding-right: 10px;
+        }
+         
+        .editbtn,.deletebtn{
+            display: inline-block;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+        .bgOrange{
+            background-color: Orange;
+        }
+        .bgRed{
+            background-color: red;
+        }
+        .pendingbtn,.paid{
+            display: inline-block;
+            color: white;
+            padding: 5px 15px;
+            background-color: blue;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .bgreen{
+            background-color:green ;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="d">
+    <table class="table">
+        <tr class="thead">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Join Date</th>
+            <th>Photo</th>
+            <th>Total</th>
+            <th>Paid</th>
+            <th>Phone</th>
+            <th>Course</th>
+            <th>Balance</th>
+            <th>Status</th>
+            <th>action</th>
+        </tr>
+        <tr class="tbody">
+           <td>1</td>
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td>
+           <td><span class="pendingbtn ">pendding</span>
+        <span class="paid bgreen">Fullpaid</span></td>
+           <td><a href="" class="editbtn bgOrange" >edit</a> <a href="" class="deletebtn bgRed">delete</a></td>
+         </tr>
+         <tr class="tbody">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>qwerttyuoopbudx</td>
+          </tr>
+          <tr class="tbody">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td ></td>
+          </tr>
+          <tr class="tbody">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="tbody">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td ></td>
+          </tr>
+        </table></div>
+</body>
+</html>
