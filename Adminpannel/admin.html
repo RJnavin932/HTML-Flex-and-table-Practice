@@ -1,0 +1,151 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amin panel</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            background-color: red;
+        }
+        .topnavbar{
+            width: 100%;
+            background-color: lightblue;
+            padding: 10px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .mainarea{
+            width: 100%;
+            height: calc(100% - 129px);
+            background-color: lightgoldenrodyellow;
+            display: flex;
+            
+        }
+        .leftnavbar{
+            height: 100%;
+            width: 150px;
+            background-color: green;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            flex-wrap: wrap;
+        }
+        .right{
+            width: 100%;
+            height: 100%;
+            background-color: lightseagreen;
+
+        }
+        .footer{
+            width: 100%;
+            padding: 20px 0px;
+            background-color: lightgrey;
+            justify-content: center;
+            flex-wrap: wrap;
+            display: flex;
+        }
+
+        .logo{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: black;
+        }
+        .logout{
+            background-color: red;
+            padding: 10px;
+        }
+        .ml{
+            margin-left: 5px;
+        }
+        .mr{
+            margin-right: 5px;
+        }
+        .menuitem{
+            background-color: orange;
+            margin-bottom: 5px;
+            padding: 10px 0px;
+            text-align: center;
+        }
+        .menuitem:hover{
+            background-color: lightblue;
+        }
+
+        .row{
+            width: 100%;
+            padding: 5px 0px;
+            background-color: lightyellow;
+            display: flex;
+            gap: 10px;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .box{
+            width: 200px;
+            height: 150px;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="topnavbar">
+            <div class="logo ml"></div>
+            <div class="logout mr">logout</div>
+        </div>
+        <div class="mainarea">
+            <div class="leftnavbar">
+                <ul>
+                    <li class="menuitem">menu 1</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                    <li class="menuitem">menu</li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="row">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            &copy; Naveen 
+        </div>
+    </div>
+</body>
+</html>
