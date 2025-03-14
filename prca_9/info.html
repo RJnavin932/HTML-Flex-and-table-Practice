@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .n {
+            width: 100%;
+            padding: 20px 0px;
+            /* background-color: lightgrey; */
+            background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	        /* height: 10; */
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .n1 {
+            width:400px;
+            padding: 20px 0px;
+            background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+            /* align-items: center; */
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 30px;
+            padding-left: 30px;
+            box-shadow: 1px 2px 3px;
+        }
+        .n2 {
+            width:320px;
+            padding: 40px 0px;
+            background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+            display: flex;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 10px;
+            box-shadow: 1px 2px 3px;
+        }
+        .ntext {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            gap: 15px;
+            flex-direction: column;
+            display: flex;
+            flex-wrap: wrap;
+            right: 80%;
+            margin: 0px;
+
+        }
+        .ntext:hover{
+            color: black;
+        }
+
+        .ntext1 {
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .ntext1:hover{
+            color: lightskyblue;
+        }
+
+        .ntext3 {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-size: 20px;
+            margin: 0;
+            font-weight: bold;
+        }
+        .ntext3:hover{
+            color: antiquewhite;
+        }
+        .t { 
+            font-weight: bold;
+            width: 95%;
+        } 
+        .t:hover{
+             background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);;
+        }
+          textarea{
+            height: 100px;
+         
+    }
+
+    .contactrow{
+        display: flex;
+        gap: 10px;
+    } 
+    .rightsec{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .icon{
+        color: white;
+     }
+     .icon:hover{
+        color:blueviolet;
+     }    
+     .bottom{
+        display: flex;
+        width:100%;
+        gap: 20px;
+      }
+     .detail{
+        font-weight: bold;
+        width: 95%;
+        flex-wrap: wrap;
+        display: flex;
+     }
+     @media screen and(max-width:768px){
+        .n1{
+            flex-direction:column-reverse;
+        }
+    
+     }
+    </style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="n">
+        <div class="n1">
+            <div class="ntext">GET IN TOUCH</div>
+            <div class="ntext">இந்த website-ல் உங்களால் எளிமையாக  எங்களை தொடர்பு கொள்ள முடியும் </div>
+            <div>
+                <div>
+                    <!-- <div class="ntext"></div> <td> -->
+                        <div class="contactrow">
+                            <div class="leftsec">
+                                <i class="icon glyphicon glyphicon-envelope"></i><br><br> <br><br>
+                                <i class="icon fa fa-map-marker"></i><br><br> <br><br>
+                                <i class=" icon fa fa-phone"></i>
+                            </div>
+                            <div class="rightsec">
+                                <h1 class="ntext">CHAT US</h1>
+                                <P class="ntext1"> our team is help you</P>
+                                <p class="ntext1">xyz@company.com</p>
+                                <h1 class="ntext">OFFICE</h1>
+                                <p class="ntext1">abc def street</p>
+                                <p class="ntext1"> tuticorin-628002</p>
+                                <h1 class="ntext">PHONE</h1>
+                                <p class="ntext1">9876543210</P>
+                                </div></div></div></div>
+                                <div class="bottom">
+                                    <i class="icon fa fa-facebook-f"></i>
+                                    <i class=" icon fa fa-whatsapp"></i>
+                                    <i class=" icon fa fa-instagram"></i></div></div>
+        <form action=""> <div class="n2"> 
+                <div class="ntext3">Fill The Details</div>
+                    <input class="detail" type="text" name="name" placeholder="NAME"/></br>
+                    <input  class="detail" type="text" name="Phone" placeholder="PHONE"/> </br>
+                    <input  class="detail" type="email" name="email" placeholder="EMAIL"/></br>
+                     <textarea class="detail"  name="Message" id="" placeholder="MESSAGE"></textarea>
+                    <button class="t">sumbit</button>
+                </div>
+            </div></form>
+        </div>
+</body>
+
+</html>
