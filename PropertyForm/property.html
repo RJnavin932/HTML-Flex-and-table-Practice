@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            padding: 20px 0px;
+            background-color: black;
+            justify-content: center;
+            display: flex;
+        }
+        .outerbox{
+            width: 400px;
+            padding: 20px 0px;
+            background-color: slategrey;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .outerbox:hover{
+            border: 2px solid white;
+        }
+        .row{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            font-size:15px;
+            font-weight:900;
+            gap: 5px;
+            margin-left: 5px;
+            flex-wrap: wrap;
+        }
+        .tbox{
+            width: 90%;
+            padding: 10px 0px;
+            margin-left: 10px;
+        }
+        .h3{
+            width: 100%;
+            text-align: center;
+            text-decoration: underline 2px;
+        }
+        .sumbit{
+            width: 90%;
+            padding: 10px 0px;
+            margin-top: 10px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="get">
+    <div class="container">
+        <div class="outerbox">
+        <div class="row"><div class="h3">HOME PROPERTYS</div>
+        <label for="">Property size:</label><input class="tbox" type="text" name="" id="property">
+        <label for="uname">Rooms:</label><input class="tbox" type="text" name="" id="rooms">
+        <label for="">Bed Rooms:</label><input class="tbox" type="text" name="" id="Bed">
+        <label for="">Garage:</label><input class="tbox" type="text" name="" id="Garage">
+        <label for="" >Year Build:</label><input class="tbox" type="date" name="" id="Year">
+        <label for="">Title:</label><input class="tbox" type="text" name="" id="title">
+        <label for="">Discription:</label> <textarea class="tbox" name="" id="discription"></textarea>
+        <label for="">Image:</label><input class="tbox" type="file" name="" id="Img">
+        <button class="sumbit" type="submit">sumbit</button>
+
+    </div>
+    </div>
+</form>
+    </div>
+
+    </div>
+</body>
+</html>

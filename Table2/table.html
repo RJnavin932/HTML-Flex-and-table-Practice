@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+
+    <style>
+        body{
+            background-color: #008B8B;
+        }
+        .d{
+            width: 100%;
+            overflow-y: hidden;
+            overflow-x: auto;
+        }
+        .table{
+               width: 100%;
+               padding: 20px 0px;
+               background: #004953;
+               border-collapse:collapse;
+               overflow: hidden;
+               border-spacing: 0; 
+               border-radius: 6px;
+               text-align: center;
+               display: flex;
+               flex-wrap: wrap;
+              
+        }
+        
+        .thead{
+            height:60px;
+            background: white;
+            font-size: 16px;
+            width: 100%;
+        }
+        .tbody{
+           height: 48px;
+            border-bottom:1px solid gray;
+            color: white;
+        }
+        .tbody> td{
+            padding-right: 10px;
+            
+        }
+         
+        .editbtn,.deletebtn{
+            display: inline-block;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 3px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .bgOrange{
+            background-color: Orange;
+        }
+        .bgRed{
+            background-color: red;
+        }
+        .pendingbtn,.paid{
+            display: inline-block;
+            color: white;
+            padding: 5px 15px;
+            background-color: blue;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .bgreen{
+            background-color:green ;
+        }
+
+        
+       
+    </style>
+</head>
+<body>
+    <div class="d">
+    <table class="table">
+        <tr class="thead">
+            <th>ID</th>
+            <th>YEAR BUILD</th>
+            <th>GARAGE</th>
+            <th>BEDROOMS</th>
+            <th>BATHROOMS</th>
+            <th>TOTAL ROOMS</th>
+            <th>PROPERTY SIZE</th>
+            <th>AMOUNT</th>
+            <th>BALANCE</th>
+            <th>STATUS</th>
+            <th>ACTION</th>
+        </tr>
+        <tr class="tbody">
+           <td>1</td>
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td> 
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td>
+           <td>qwerttyuoopbudx</td>
+           <td><span class="pendingbtn ">pendding</span>
+        <span class="paid bgreen">Fullpaid</span></td>
+           <td><a href="" class="editbtn bgOrange" >edit</a> <a href="" class="deletebtn bgRed">delete</a></td>
+         </tr>
+         <tr class="tbody">
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td ></td>
+          </tr>
+          <tr class="tbody">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td ></td>
+          </tr>
+          <tr class="tbody">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="tbody">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td ></td>
+          </tr>
+        </table></div>
+</body>
+</html>
